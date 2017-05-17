@@ -1,5 +1,5 @@
 require "bundler/setup"
-require "bose/soundtouch/api"
+require "bose/soundtouch_api/client"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure

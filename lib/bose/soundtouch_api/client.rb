@@ -1,9 +1,9 @@
-require 'bose/soundtouch/api/version'
+require 'bose/soundtouch_api/version'
 require 'httparty'
 
 module Bose
-  module Soundtouch
-    class Api
+  module SoundtouchApi
+    class Client
       include HTTParty
 
       KEY_VALUES = [
@@ -38,7 +38,7 @@ module Bose
       ]
 
       def initialize(ip_or_hostname)
-        self.base_uri "#{ip_or_hostname}:8090"
+        self.class.base_uri "#{ip_or_hostname}:8090"
       end
 
       def info

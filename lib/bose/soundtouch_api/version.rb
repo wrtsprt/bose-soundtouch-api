@@ -1,5 +1,5 @@
 module Bose
-  module Soundtouch
+  module SoundtouchApi
     module Api
       VERSION = "0.1.0"
     end

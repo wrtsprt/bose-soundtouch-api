@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'bose/soundtouch/api/version'
+require 'bose/soundtouch_api/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "bose-soundtouch-api"
-  spec.version       = Bose::Soundtouch::Api::VERSION
+  spec.version       = Bose::SoundtouchApi::Api::VERSION
   spec.authors       = ["Raphael Doehring"]
   spec.email         = ["raphael.doehring@gmail.com"]
 
